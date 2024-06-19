@@ -21,7 +21,6 @@ const BodyTop=()=>{
     
     return(
         <div className="bodyTop">
-            {/* <div className="box"> */}
                     <h3 className='heading3'>Design for the Future</h3>
                 <div className="inner-box left">
                     {contents.map((conten,index)=>{
@@ -31,9 +30,8 @@ const BodyTop=()=>{
                     })}
                 </div>
                 <div className="inner-box right">
-                    <ImageDiv image={image}/>
+                    <ImageDiv image={image} width={500} height={500}/>
                 </div>
-            {/* </div> */}
         </div>
     )
 

@@ -1,10 +1,13 @@
 .bodyMiddle{
     background-color: rgba(0, 60, 255, 0.822);
-    border-bottom-left-radius: 50%;
+    border-top-right-radius:150px ;
+    border-bottom-left-radius: 150px;
     .middleInner{
      display: flex;   
      margin: 20px auto;
      width: 80%;
+     justify-content: center;
+     align-items: center;
      .right-middle{
         margin: 0 auto;
      }

@@ -14,7 +14,7 @@ const BodyMiddle=()=>{
             <div className="middleInner">
 
             <div className="left-middle">
-                <ImageDiv image={image}/>
+                <ImageDiv image={image} height={400} width={500}/>
             </div>
             <div className="right-middle">
                 <Content h4={content.h4} p={content.p} />
