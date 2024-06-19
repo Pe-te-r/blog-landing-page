@@ -1,0 +1,17 @@
+nav{
+    // display: flex;
+    width: 80%;
+    flex-direction: row;
+    // border: 3px solid black;
+    ul{
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        li{
+            margin: 0px 15px;
+            font-size: 1.5rem;
+            color: whitesmoke;
+        }
+    }
+}
