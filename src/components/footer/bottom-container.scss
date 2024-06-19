@@ -1,0 +1,18 @@
+.bottom-box{
+    display: flex;
+    flex-direction: column;
+    h5{
+        font-weight: 600;
+        font-size: 1.3rem;
+        color: whitesmoke;
+        margin: 12px 0px;
+    }
+    ul{
+        list-style: none;
+        li{
+           font-size: 1.1rem; 
+           color: rgba(245, 245, 245, 0.849);
+           line-height: 1.6rem;
+        }
+    }
+}
